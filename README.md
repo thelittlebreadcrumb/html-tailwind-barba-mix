@@ -21,7 +21,7 @@ I'm glad to have done a whole lot of research (that eventually led nowhere) whic
  - Alpine (Initial repo uses Alpine via CDN)
 
 ```bash
- git clone https://github.com/dsoto-blog/html-tailwind-alpine-mix.git my-site
+ git clone https://github.com/thelittlebreadcrumb/html-tailwind-barba-mix.git my-site
  cd my-site
  npm install # or yarn
  npm run watch # or yarn watch
