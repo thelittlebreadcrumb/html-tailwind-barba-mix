@@ -2,7 +2,7 @@
 
 **Bundlers. are. daunting** ...and Barba JS docs = 🗑. 
 
-This stuff really shouldn't have to be this complicated - I’ve made this repo public to help my future self and others. If this has helped you, please reach out to me on [Twitter](https://twitter.com/bhavyadaiya) - I'd love to know what you're working on.
+This stuff really shouldn't have to be this complicated – hence I’ve made this repo public to help my future self and others. If this has helped you, please reach out to me on [Twitter](https://twitter.com/bhavyadaiya) - I'd love to know what you're working on.
 
 I'm glad to have done a whole lot of research (that eventually led nowhere) which at least allowed to get a clue about what's going on.
 - [HTML Tailwind Alpine Starter](https://duckduckgo.com)
@@ -21,7 +21,7 @@ I'm glad to have done a whole lot of research (that eventually led nowhere) whic
  - Alpine (Initial repo uses Alpine via CDN)
 
 ```bash
- git clone https://github.com/dsoto-blog/html-tailwind-alpine-mix.git my-site
+ git clone https://github.com/thelittlebreadcrumb/html-tailwind-barba-mix.git my-site
  cd my-site
  npm install # or yarn
  npm run watch # or yarn watch

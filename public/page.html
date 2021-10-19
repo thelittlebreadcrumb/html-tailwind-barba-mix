@@ -2,25 +2,34 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>HTML/Tailwind/Alpinejs Starter</title>
+    <title>HTML + Tailwind + Barba + Mix Starter</title>
     <meta name="description" content="Basic HTML/Tailwind starter" />
     <meta name="author" content="Daily Dev Tips" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="./css/app.css" />
     <script src="./js/app.js" defer></script>
 </head>
 
 <body class="w-full" data-barba="wrapper">
     <div class="side bg-white w-full h-full bg-opacity-25 w-2/3 pr-20 float-right" data-barba="container">
-        <span class="title text-4xl font-serif mt-20 block mb-12">What is Flutter?</span>
+        <div class="title-block mt-20 mb-12">
+            <span class="title relative text-4xl font-serif block"><a href="index.html" class="absolute top-[12px] left-[-43px]">
+                <div class="back w-[20px] h-[20px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-[20px] h-[20px]" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </a> What is Flutter?</span>
+            
+        </div>
         <div class="metadata mb-12">
             <div class="flex space-x-12">
                 <div class="data-1"><span class="font-semibold block">Author</span>Paulo Grubiša</div>
                 <div class="data-1"><span class="font-semibold block">Categories</span>Web Development</div>
-                <div class="data-1"><span class="font-semibold block">Date</span>Sept 15, 2021</div>
+                <div class="data-1"><span class="font-semibold block bg-gray-200">Date</span>Sept 15, 2021</div>
             </div>
         </div>
-        <div class="article font-light pb-12">
+        <div class="article w-3/3 float-left font-light pb-12">
             <div class="bg-gray-400 aspect-w-16 aspect-h-9 mb-12">
                 <img src="https://res.cloudinary.com/demo/image/upload/c_fill,g_auto,h_1200,w_1600/docs/model.jpg"
                     alt="" class="w-full h-full object-center object-cover">
