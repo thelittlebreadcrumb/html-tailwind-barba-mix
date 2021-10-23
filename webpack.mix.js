@@ -8,11 +8,4 @@ mix.js("src/app.js", "public/js")
         require('postcss-focus-visible'),
         require('autoprefixer'),
     ])
-    .browserSync({
-        proxy: 'http://wbp.test',
-        files: [
-            'public/**/*.html',
-            'src/**/*.(css|js)', 
-        ],
-    })
     .setPublicPath('/').version();
